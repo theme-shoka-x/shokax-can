@@ -16,7 +16,7 @@
     "@waline/client": "3.2.6",
     "algoliasearch": "4.24.0",
     "esbuild": "0.22.0",
-    "hexo": "^7.2.0",
+    "hexo": "^7.3.0",
     "hexo-algoliasearch": "^2.0.1",
     "hexo-feed": "^1.1.2",
     "hexo-fs": "4.1.3",
