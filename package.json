@@ -24,7 +24,7 @@
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-tag": "^2.0.0",
-    "hexo-pagination": "3.0.0",
+    "hexo-pagination": "4.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-multi-next-markdown-it": "^0.2.1",
     "hexo-renderer-pug": "^3.0.0",
