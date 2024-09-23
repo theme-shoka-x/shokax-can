@@ -12,7 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "@algolia/client-search": "4.24.0",
+    "@algolia/client-search": "5.5.3",
     "@waline/client": "3.3.0",
     "algoliasearch": "4.24.0",
     "esbuild": "0.23.0",
