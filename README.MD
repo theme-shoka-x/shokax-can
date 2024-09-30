@@ -8,7 +8,7 @@ pnpm install
 hexo s # 如果报错更换为 pnpm dlx hexo s
 ```
 
-当前内容物版本：ShokaX v0.4.11 不含 lightning-minify
+当前内容物版本：ShokaX v0.4.14 不含 lightning-minify
 
 ## 创建链接
 ```bash
