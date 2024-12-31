@@ -12,14 +12,14 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "@algolia/client-search": "5.6.1",
-    "@waline/client": "3.3.2",
-    "algoliasearch": "5.6.1",
-    "esbuild": "0.24.0",
+    "@algolia/client-search": "5.18.0",
+    "@waline/client": "3.4.2",
+    "algoliasearch": "5.18.0",
+    "esbuild": "0.24.2",
     "hexo": "^7.3.0",
     "hexo-algoliasearch": "^2.0.1",
     "hexo-feed": "^1.1.2",
-    "hexo-fs": "4.1.3",
+    "hexo-fs": "5.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
@@ -31,16 +31,16 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-theme-shokax": "0.4.14",
+    "hexo-theme-shokax": "0.4.17",
     "hexo-util": "3.3.0",
-    "instantsearch.js": "4.74.2",
+    "instantsearch.js": "4.75.6",
     "js-yaml": "4.1.0",
     "mouse-firework": "0.0.6",
     "quicklink": "2.3.0",
     "theme-shokax-anime": "0.0.7",
     "theme-shokax-pjax": "0.0.3",
-    "twikoo": "1.6.39",
-    "unlazy": "0.11.3",
-    "vue": "3.5.10"
+    "twikoo": "1.6.40",
+    "unlazy": "0.12.1",
+    "vue": "3.5.13"
   }
 }
