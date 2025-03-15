@@ -153,3 +153,30 @@ feed:
     enable: true
     template: "node_modules/hexo-theme-shokax/layout/_alternate/json.ejs"
     output: "feed.json"
+
+minify:
+  js:
+    enable: false # Not recommended for ShokaX (built-in esbuild optimization). Enable for other themes.
+    exclude: # Excluded files (string[] compatible with micromatch patterns)
+  css:
+    enable: true # Enable CSS optimization
+    options:
+      targets: ">= 0.5%" # Browser targets in browserslist format
+    exclude: # Excluded files (string[] compatible with micromatch patterns)
+  image:
+    enable: true # Enable image preprocessing and automatic WebP conversion
+    options:
+      # Format selection
+      avif: true
+      webp: false
+      quality: 60 # Image quality (1-100 integer, lossless, or nearLossless)
+      effort: 2 # CPU workload (0-6 integer, lower values prioritize speed)
+      replaceSrc: true # Automatically replace local image URLs in HTML with optimized versions
+      # Note: Service Worker implementation is recommended for less intrusive URL replacement
+      enableSubSampling: true # Enable advanced chroma subsampling
+      # For AVIF: Enables 4:2:0 subsampling (4:4:4 when disabled), optimizing size with minimal quality loss
+      # For WebP: Allows extended CPU processing time for enhanced quality
+      destroyOldRoute: true # Generate only processed images (preserve original assets)
+      persistCache: true # Enable persistent caching of processed images
+      # Stores optimized images on disk to accelerate subsequent builds
+    exclude: # Excluded files (string[] compatible with micromatch patterns)
